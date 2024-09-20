@@ -1,0 +1,93 @@
+body{
+    font-family: Calibri;
+    color: rgb(31, 30, 30);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(#2f529e, white);
+    font-weight: bold;
+}
+
+.opt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1100px;
+    gap: 30px;
+}
+
+img{
+    border-radius: 200px;
+    height: 230px;
+    padding: 5px;
+    background:linear-gradient(#2f529e, rgb(194, 194, 194));
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #2f529e; /* Adiciona uma borda de 2px na cor preta */
+    padding: 20px; /* Espaçamento interno da box */
+    border-radius: 10px; /* Deixa os cantos arredondados (opcional) */
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+.info p {
+    border: 1px solid gray; /* Adiciona uma borda de 1px na cor cinza */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+    border-radius: 5px; /* Cantos arredondados (opcional) */
+}
+span{
+    background-color: #2f529e8f;
+    color:white;
+    border-radius: 3px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.cabeca{
+    margin-left: 10px;
+}
+
+section {
+    border: 2px solid #2f529e; /* Adiciona uma borda de 2px na cor desejada */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Deixa os cantos arredondados */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+section h1 {
+    margin-top: 0; /* Remove o espaço superior do título para melhor alinhamento */
+}
+
+section a {
+    display: block; /* Faz os links ocuparem uma linha inteira */
+    margin-bottom: 5px; /* Espaço entre os links */
+}
+
+.projetos {
+    border: 2px solid #2f529e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.projetos .projeto-link {
+    display: block; /* Faz o link ocupar uma linha inteira */
+    border: 1px solid gray; /* Borda igual à dos parágrafos */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaço entre os links */
+    border-radius: 5px; /* Cantos arredondados */
+    text-decoration: none; /* Remove sublinhado do link */
+    color: black; /* Cor do texto */
+    background-color: #f9f9f9; /* Cor de fundo */
+}
+
+.projetos .projeto-link:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+}
